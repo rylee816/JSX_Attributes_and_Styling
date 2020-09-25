@@ -1,0 +1,30 @@
+body {
+  display: grid;
+}
+.heading {
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-shadow: 2px 2px 5px black;
+}
+
+.list {
+  color: orange;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: auto;
+  grid-column-gap: 20px;
+}
+img {
+  width: 300px;
+  margin: 5px;
+}
+
+/* .photo{
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+} */
